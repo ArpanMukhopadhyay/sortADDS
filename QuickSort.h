@@ -4,10 +4,9 @@
 #include <vector>
 
 class QuickSort: public Sort{
-    public:
-        QuickSort();
-        void exec(std::vector<int> &toSort, int, int);
-        ~QuickSort();
+    QuickSort();
+    void exec(std::vector<int> &toSort, int, int);
+    ~QuickSort();
     
     private:
         int Split(std::vector<int> &toSort, int, int, int);
